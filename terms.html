@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Nook</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --text-secondary: #4a4a4a;
+      --text-light: #6b6b6b;
+      --border: #e0e0e0;
+      --accent: #3a2a0e;
+      --link: #5a4118;
+      --section-bg: #faf9f7;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16120a;
+        --text: #f0ebe0;
+        --text-secondary: #c9bfa8;
+        --text-light: #9a8f7a;
+        --border: #3a3020;
+        --accent: #d4a86a;
+        --link: #d4a86a;
+        --section-bg: #1e1810;
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--text);
+      background: var(--bg);
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 60px 32px 100px;
+    }
+
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 32px;
+      margin-bottom: 48px;
+    }
+
+    .app-name {
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text-light);
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: normal;
+      color: var(--text);
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+
+    .meta {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: var(--text-light);
+    }
+
+    nav {
+      background: var(--section-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px 28px;
+      margin-bottom: 52px;
+    }
+
+    nav p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-light);
+      margin-bottom: 14px;
+    }
+
+    nav ol {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      columns: 2;
+      column-gap: 32px;
+      padding-left: 20px;
+    }
+
+    nav li { margin-bottom: 6px; color: var(--text-secondary); }
+    nav a { color: var(--link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    section { margin-bottom: 52px; }
+
+    h2 {
+      font-size: 22px;
+      font-weight: normal;
+      color: var(--text);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+
+    p { margin-bottom: 16px; color: var(--text-secondary); }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 16px;
+      color: var(--text-secondary);
+    }
+
+    li { margin-bottom: 8px; }
+
+    .highlight-box {
+      background: var(--section-bg);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 6px 6px 0;
+      padding: 18px 20px;
+      margin: 20px 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 15px;
+      color: var(--text-secondary);
+    }
+
+    a { color: var(--link); }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 32px;
+      margin-top: 60px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      color: var(--text-light);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 32px 20px 80px; font-size: 16px; }
+      h1 { font-size: 26px; }
+      nav ol { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <p class="app-name">Nook</p>
+    <h1>Terms of Service</h1>
+    <p class="meta">Effective date: September 22, 2026 &nbsp;·&nbsp; Last updated: September 22, 2026</p>
+  </header>
+
+  <nav>
+    <p>Contents</p>
+    <ol>
+      <li><a href="#agreement">Agreement to Terms</a></li>
+      <li><a href="#services">Our Services</a></li>
+      <li><a href="#ip">Intellectual Property</a></li>
+      <li><a href="#representations">User Representations</a></li>
+      <li><a href="#accounts">User Accounts</a></li>
+      <li><a href="#subscriptions">Subscriptions &amp; Billing</a></li>
+      <li><a href="#prohibited">Prohibited Activities</a></li>
+      <li><a href="#ugc">User-Generated Content</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#termination">Term &amp; Termination</a></li>
+      <li><a href="#modifications">Modifications</a></li>
+      <li><a href="#governing-law">Governing Law &amp; Disputes</a></li>
+      <li><a href="#disclaimers">Disclaimers</a></li>
+      <li><a href="#liability">Limitation of Liability</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </nav>
+
+
+  <!-- 1. Agreement to Terms -->
+  <section id="agreement">
+    <h2>1. Agreement to Terms</h2>
+    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you ("you" or "User") and Ovindu Abeysiriwardena, an individual operating under the trade name <strong>Nook</strong>, located in Sri Lanka ("we," "us," or "our"), concerning your access to and use of the Nook iOS application and any related services (collectively, the "Services").</p>
+    <p>By downloading, installing, or using the Nook application, creating an account, or otherwise accessing the Services, you confirm that you have read, understood, and agree to be bound by these Terms in their entirety. If you do not agree to these Terms, you must not access or use the Services.</p>
+    <p>These Terms incorporate our Privacy Policy by reference. Your use of the Services is also governed by our Privacy Policy, which is available within the application and at our support contact address. Please read it carefully.</p>
+  </section>
+
+
+  <!-- 2. Our Services -->
+  <section id="services">
+    <h2>2. Our Services</h2>
+    <p>Nook is a personal voice-journaling application for iOS. The Services allow you to:</p>
+    <ul>
+      <li>Record spoken check-ins and reflections about your day;</li>
+      <li>Have your recordings automatically transcribed and converted into written journal entries;</li>
+      <li>Play back your audio recordings within the application;</li>
+      <li>Have the application read your journal entries back to you using synthesised voice;</li>
+      <li>Manage and review your personal journal history over time.</li>
+    </ul>
+    <p>The Services are intended for personal, non-commercial journaling purposes only. We reserve the right to modify, suspend, or discontinue any aspect of the Services at any time, with or without notice, though we will make reasonable efforts to inform you of material changes in advance.</p>
+  </section>
+
+
+  <!-- 3. Intellectual Property -->
+  <section id="ip">
+    <h2>3. Intellectual Property Rights</h2>
+
+    <h3>Our Intellectual Property</h3>
+    <p>The Nook application, including its source code, design, graphics, user interface, logos, trademarks, service marks, and all other content that we create or provide (collectively, "Nook Content"), is owned by or licensed to us and is protected by applicable intellectual property laws. All rights in Nook Content are reserved.</p>
+
+    <h3>Limited License to Use</h3>
+    <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable licence to download and use the Nook application on iOS devices that you own or control, solely for your personal, non-commercial journaling purposes. This licence does not permit you to:</p>
+    <ul>
+      <li>Copy, modify, or distribute any part of the application or Nook Content;</li>
+      <li>Reverse engineer, decompile, or disassemble the application;</li>
+      <li>Sub-license, sell, resell, transfer, or otherwise commercialise the application;</li>
+      <li>Remove or obscure any proprietary notices or labels.</li>
+    </ul>
+
+    <h3>Feedback</h3>
+    <p>If you provide us with any feedback, suggestions, ideas, or comments about the Services ("Feedback"), you grant us a perpetual, irrevocable, worldwide, royalty-free licence to use, incorporate, and act upon that Feedback in any manner and for any purpose without compensation, attribution, or obligation to you.</p>
+  </section>
+
+
+  <!-- 4. User Representations -->
+  <section id="representations">
+    <h2>4. User Representations</h2>
+    <p>By using the Services, you represent and warrant that:</p>
+    <ol>
+      <li>You are at least 18 years of age. The Services are not directed at, and are not available to, persons under the age of 18. By registering for an account, you confirm that you meet this age requirement.</li>
+      <li>All information you provide to us is accurate, current, and complete, and you will maintain its accuracy throughout your use of the Services.</li>
+      <li>You have the legal capacity to enter into these Terms and to comply with them.</li>
+      <li>You will not access or use the Services through automated or non-human means.</li>
+      <li>Your use of the Services will not violate any applicable law or regulation.</li>
+      <li>You are not located in, nor a national or resident of, any country to which Sri Lanka or applicable international trade-control laws prohibit the export of software.</li>
+    </ol>
+  </section>
+
+
+  <!-- 5. User Accounts -->
+  <section id="accounts">
+    <h2>5. User Registration &amp; Accounts</h2>
+
+    <h3>Account Creation</h3>
+    <p>To access the full features of the Services, you must register for an account. You may create an account using an email address and password, or by authenticating through a supported third-party provider (currently Apple Sign-In and Google Sign-In). By using a third-party sign-in method, you also agree to the applicable terms and privacy policies of that provider.</p>
+
+    <h3>Account Security</h3>
+    <p>You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. You agree to notify us immediately at <a href="mailto:nook.support@gmail.com">nook.support@gmail.com</a> if you become aware of any unauthorised use of your account. We are not liable for any loss or damage arising from your failure to safeguard your credentials.</p>
+
+    <h3>Account Restrictions</h3>
+    <p>Each account is for a single individual user. You may not sell, transfer, assign, or otherwise convey your account or access credentials to any other person or entity. You may not create an account on behalf of another person without their express authorisation.</p>
+
+    <h3>Account Termination</h3>
+    <p>We reserve the right to suspend or terminate your account at our discretion if we determine that you have violated these Terms or engaged in conduct we deem harmful to the Services, other users, or us.</p>
+  </section>
+
+
+  <!-- 6. Subscriptions & Billing -->
+  <section id="subscriptions">
+    <h2>6. Subscriptions &amp; Billing</h2>
+
+    <h3>Subscription Plans</h3>
+    <p>Access to the full features of Nook requires a paid subscription. We offer the following subscription plans:</p>
+    <ul>
+      <li><strong>Monthly Plan:</strong> Billed monthly. Renews automatically each month.</li>
+      <li><strong>Annual Plan:</strong> Billed annually. Includes a <strong>7-day free trial</strong> for new subscribers. Renews automatically each year.</li>
+    </ul>
+    <p>All subscription prices are denominated in <strong>United States Dollars (USD)</strong>. Applicable taxes may be added by Apple at the time of purchase in accordance with your jurisdiction.</p>
+
+    <h3>Free Trial</h3>
+    <p>The 7-day free trial is available on the Annual Plan for new subscribers who have not previously subscribed to Nook. At the end of the free trial period, your Apple ID will be automatically charged for the Annual Plan subscription unless you cancel at least 24 hours before the trial period ends.</p>
+
+    <h3>Payment Processing</h3>
+    <p>All payments are processed exclusively by Apple through the App Store in-app purchase system. We do not directly collect, store, or handle your payment card details or other financial information. By subscribing, you also agree to Apple's payment terms and policies.</p>
+
+    <h3>Apple App Store — Subscription Disclosure</h3>
+    <div class="highlight-box">
+      <p>The following disclosures are required by Apple for auto-renewable subscriptions:</p>
+      <ul>
+        <li>Payment is charged to your Apple ID at confirmation of purchase.</li>
+        <li>Your subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current subscription period.</li>
+        <li>Your account is charged for renewal within 24 hours prior to the end of the current subscription period.</li>
+        <li>You may manage your subscriptions and turn off auto-renewal at any time by going to <strong>Settings → [Your Name] → Subscriptions</strong> on your device after purchase.</li>
+        <li>Any unused portion of a free trial period will be forfeited when you purchase a subscription.</li>
+      </ul>
+    </div>
+
+    <h3>Cancellation &amp; Refunds</h3>
+    <p>You may cancel your subscription at any time through your Apple ID Account Settings (Settings → [Your Name] → Subscriptions). Cancellation takes effect at the end of the current billing period; you will retain access to the Services for the remainder of the period for which you have paid. We do not process refunds directly. All refund requests are subject to Apple's App Store refund policies and must be submitted through Apple.</p>
+
+    <h3>Pricing Changes</h3>
+    <p>We may change subscription prices from time to time. Apple will notify you of any price changes before they take effect in accordance with its policies, and your continued subscription after the change constitutes acceptance of the new price.</p>
+  </section>
+
+
+  <!-- 7. Prohibited Activities -->
+  <section id="prohibited">
+    <h2>7. Prohibited Activities</h2>
+    <p>You agree not to use the Services for any purpose other than that for which they are made available. Without limiting the foregoing, you specifically agree not to:</p>
+    <ul>
+      <li>Use the Services in any manner that could disable, overburden, damage, or impair the Services or interfere with any other party's use of the Services;</li>
+      <li>Use the Services to transmit any content that is illegal, obscene, defamatory, threatening, harassing, hateful, or otherwise objectionable;</li>
+      <li>Attempt to gain unauthorised access to any part of the Services, other users' accounts, or systems connected to the Services;</li>
+      <li>Use any robot, spider, scraper, data-mining tool, or other automated means to access, collect, or harvest data from the Services;</li>
+      <li>Reverse engineer, decompile, or disassemble any part of the Services;</li>
+      <li>Circumvent, disable, or otherwise interfere with any security-related features of the Services;</li>
+      <li>Upload or transmit viruses, malware, or any other malicious code;</li>
+      <li>Use the Services to advertise or sell goods, services, or products to other users or through any outward-facing use of the application;</li>
+      <li>Sell, transfer, or otherwise convey your account, username, or profile to any third party;</li>
+      <li>Impersonate any person or entity, or misrepresent your identity or affiliation with any person or entity;</li>
+      <li>Use the Services in violation of any applicable local, national, or international law or regulation;</li>
+      <li>Engage in any conduct that, in our sole discretion, restricts or inhibits any other person from using or enjoying the Services.</li>
+    </ul>
+  </section>
+
+
+  <!-- 8. User-Generated Content & License -->
+  <section id="ugc">
+    <h2>8. User-Generated Content &amp; Licence</h2>
+
+    <h3>Your Content</h3>
+    <p>The Services allow you to create, upload, record, and store content, including voice recordings, transcriptions, and journal entries ("Your Content"). As between you and us, <strong>you retain full ownership of all intellectual property rights in Your Content</strong>.</p>
+
+    <h3>Licence Grant to Nook</h3>
+    <p>By using the Services, you grant us a limited, non-exclusive, royalty-free, worldwide licence to use, copy, store, process, transmit, reproduce, and display Your Content solely to the extent necessary to provide the Services to you. This includes, without limitation:</p>
+    <ul>
+      <li>Storing your voice recordings and journal entries on secure servers;</li>
+      <li>Transmitting your recordings to our AI service providers for transcription and entry generation;</li>
+      <li>Generating written journal entries from your transcriptions;</li>
+      <li>Playing back your audio recordings and reading entries back to you;</li>
+      <li>Backing up, maintaining, and improving the reliability of the Services.</li>
+    </ul>
+    <p>This licence terminates when you delete Your Content or close your account, subject to reasonable technical delays for backup and deletion processes.</p>
+
+    <h3>Your Responsibilities</h3>
+    <p>You represent and warrant that you have all rights necessary to grant the licences above, and that Your Content does not infringe the intellectual property rights or privacy rights of any third party. You are solely responsible for Your Content and the consequences of submitting it through the Services.</p>
+
+    <h3>No Obligation to Monitor</h3>
+    <p>We do not routinely monitor or review Your Content. However, we reserve the right to remove or disable access to any content that we determine, in our sole discretion, violates these Terms.</p>
+  </section>
+
+
+  <!-- 9. Third-Party Services -->
+  <section id="third-party">
+    <h2>9. Third-Party Services</h2>
+    <p>The Services integrate with and rely upon the following third-party services to operate:</p>
+    <ul>
+      <li><strong>OpenAI</strong> — used to power AI-based transcription of your voice recordings and to generate written journal entries and synthesised voice playback. Your audio recordings and transcriptions are transmitted to OpenAI for processing in accordance with OpenAI's usage policies.</li>
+      <li><strong>Supabase</strong> — used to provide backend infrastructure, including database storage for your journal entries and account authentication services.</li>
+      <li><strong>Apple</strong> — used to process all in-app subscription payments through the App Store.</li>
+    </ul>
+    <p>Your use of the Services is subject to the terms and privacy policies of these third-party providers, in addition to these Terms. We are not responsible for the practices of any third-party service provider.</p>
+    <p>The Services may contain links to third-party websites or resources. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services. We do not warrant the offerings of any of these entities or individuals, or their websites. You acknowledge and agree that we are not responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with your use of or reliance on any such third-party content, goods, or services.</p>
+  </section>
+
+
+  <!-- 10. Term & Termination -->
+  <section id="termination">
+    <h2>10. Term &amp; Termination</h2>
+    <p>These Terms remain in full force and effect for as long as you use the Services or maintain an account with us.</p>
+
+    <h3>Termination by You</h3>
+    <p>You may terminate your account at any time by contacting us at <a href="mailto:nook.support@gmail.com">nook.support@gmail.com</a> or by using the account-deletion option within the application. Cancelling your subscription does not automatically delete your account.</p>
+
+    <h3>Termination by Us</h3>
+    <p>We may suspend or terminate your access to the Services immediately and without prior notice if we determine, in our sole discretion, that:</p>
+    <ul>
+      <li>You have breached any provision of these Terms;</li>
+      <li>We are required to do so by law or a regulatory authority;</li>
+      <li>Providing the Services to you has become commercially impracticable; or</li>
+      <li>Your conduct poses a risk to us, our users, or third parties.</li>
+    </ul>
+
+    <h3>Effect of Termination</h3>
+    <p>Upon termination of your account for any reason: (a) the licences granted to you under these Terms will immediately cease; (b) we may delete Your Content from our systems in accordance with our data-retention policies and applicable law; and (c) any provisions of these Terms that by their nature should survive termination will survive, including ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>
+    <p>Termination of your account does not affect your obligation to pay any subscription fees already incurred. You remain responsible for all charges up to the date of termination.</p>
+  </section>
+
+
+  <!-- 11. Modifications -->
+  <section id="modifications">
+    <h2>11. Modifications to the Terms</h2>
+    <p>We reserve the right to modify these Terms at any time. The following policy applies to changes:</p>
+
+    <h3>Advance Notice</h3>
+    <p>For material changes to these Terms — including changes to subscription pricing, payment terms, the scope of the licence grant, or dispute resolution — we will provide you with reasonable advance notice before such changes take effect. Notice may be provided by email to the address associated with your account, by an in-app notification, or by posting the updated Terms within the application. Your continued use of the Services after the effective date of such changes constitutes your acceptance of the revised Terms.</p>
+
+    <h3>Immediate Effect</h3>
+    <p>Notwithstanding the above, some changes may take effect immediately without prior notice, including changes that: (a) introduce new features or functionality to the Services; (b) address security vulnerabilities; (c) correct errors or bugs; (d) are required by applicable law, regulation, or court order.</p>
+
+    <h3>Reviewing Updates</h3>
+    <p>We encourage you to review these Terms periodically. The "Last updated" date at the top of this page indicates when these Terms were most recently revised. If you do not agree to the revised Terms, you must stop using the Services and may terminate your account.</p>
+  </section>
+
+
+  <!-- 12. Governing Law & Dispute Resolution -->
+  <section id="governing-law">
+    <h2>12. Governing Law &amp; Dispute Resolution</h2>
+
+    <h3>Governing Law</h3>
+    <p>These Terms and any dispute or claim arising out of or in connection with them, their subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of the <strong>Democratic Socialist Republic of Sri Lanka</strong>, without regard to its conflict of law provisions.</p>
+
+    <h3>Informal Resolution</h3>
+    <p>Before initiating any formal dispute resolution proceeding, you agree to attempt to resolve any dispute with us informally. You will contact us at <a href="mailto:nook.support@gmail.com">nook.support@gmail.com</a> and describe the dispute and your desired resolution. We will attempt to resolve the dispute informally within <strong>30 days</strong> of receiving your notice. If the dispute is not resolved within that period, either party may proceed to arbitration as described below.</p>
+
+    <h3>Binding Arbitration</h3>
+    <p>Any dispute, controversy, or claim arising out of or relating to these Terms, the Services, or the breach, termination, or invalidity thereof, that cannot be resolved informally shall be finally settled by <strong>binding arbitration</strong> administered in <strong>Colombo, Sri Lanka</strong>, conducted in the <strong>English language</strong>, before <strong>a single arbitrator</strong> agreed upon by both parties or, failing agreement within 14 days, appointed in accordance with applicable Sri Lankan arbitration law.</p>
+    <p>The arbitrator's award shall be final and binding on both parties, and judgment on the award may be entered in any court of competent jurisdiction. Each party shall bear its own legal fees and costs unless the arbitrator determines otherwise.</p>
+
+    <h3>Exceptions</h3>
+    <p>Nothing in this section prevents either party from seeking emergency injunctive or other equitable relief from a court of competent jurisdiction to prevent actual or threatened infringement, misappropriation, or violation of intellectual property rights.</p>
+
+    <h3>No Class Actions</h3>
+    <p>All claims must be brought on an individual basis and not as a plaintiff or class member in any purported class, collective, or representative proceeding.</p>
+  </section>
+
+
+  <!-- 13. Disclaimers -->
+  <section id="disclaimers">
+    <h2>13. Disclaimers</h2>
+    <p>THE SERVICES ARE PROVIDED ON AN <strong>"AS IS" AND "AS AVAILABLE"</strong> BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO:</p>
+    <ul>
+      <li>IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT;</li>
+      <li>WARRANTIES THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS;</li>
+      <li>WARRANTIES REGARDING THE ACCURACY, RELIABILITY, OR COMPLETENESS OF ANY CONTENT, TRANSCRIPTIONS, OR AI-GENERATED JOURNAL ENTRIES PRODUCED BY THE SERVICES;</li>
+      <li>WARRANTIES THAT ANY DEFECTS WILL BE CORRECTED.</li>
+    </ul>
+    <p>AI-generated transcriptions and journal entries are produced by automated systems and may contain errors, omissions, or inaccuracies. You should not rely on AI-generated content as a complete or accurate record of your spoken entries. We make no warranty regarding the quality or accuracy of any transcription or synthesised voice output.</p>
+    <p>Some jurisdictions do not allow the exclusion of implied warranties. In such jurisdictions, the foregoing exclusions will apply to the fullest extent permitted by law.</p>
+  </section>
+
+
+  <!-- 14. Limitation of Liability -->
+  <section id="liability">
+    <h2>14. Limitation of Liability</h2>
+    <p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW:</p>
+    <ol>
+      <li><strong>Cap on Liability.</strong> Our total aggregate liability to you for any and all claims arising out of or relating to these Terms or the Services shall not exceed the total amount you have actually paid to us in subscription fees during the <strong>six (6) months immediately preceding</strong> the date the claim arose. If you have not paid any fees, our total liability shall not exceed USD 10.00.</li>
+      <li><strong>Exclusion of Consequential Damages.</strong> In no event shall we be liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, including without limitation loss of profits, loss of data, loss of goodwill, service interruption, computer damage, or system failure, even if we have been advised of the possibility of such damages and whether based in contract, tort (including negligence), strict liability, or otherwise.</li>
+      <li><strong>Claims Window.</strong> Any claim you may have against us arising out of or relating to these Terms or the Services must be brought within <strong>six (6) months</strong> after the cause of action accrues. Claims not brought within this period are permanently barred.</li>
+    </ol>
+    <p>Some jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages. In such jurisdictions, our liability is limited to the maximum extent permitted by applicable law.</p>
+  </section>
+
+
+  <!-- 15. Contact Us -->
+  <section id="contact">
+    <h2>15. Contact Us</h2>
+    <p>If you have any questions, concerns, or complaints about these Terms or the Services, please contact us at:</p>
+    <p>
+      <strong>Nook</strong><br />
+      Ovindu Abeysiriwardena<br />
+      Sri Lanka<br />
+      Email: <a href="mailto:nook.support@gmail.com">nook.support@gmail.com</a>
+    </p>
+    <p>We will make reasonable efforts to respond to all enquiries in a timely manner.</p>
+  </section>
+
+
+  <footer>
+    <p>© 2026 Ovindu Abeysiriwardena, operating as Nook. All rights reserved.</p>
+    <p style="margin-top: 8px;">These Terms of Service were last updated on September 22, 2026.</p>
+  </footer>
+
+</body>
+</html>
