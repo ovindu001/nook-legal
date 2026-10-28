@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Nook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #1c1611; --amber: #e0a45e; --cream: #f3ebdf; --muted: #a3978a; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--cream);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; padding: 24px; text-align: center;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 360px; animation: rise 0.6s cubic-bezier(0.22,1,0.36,1) both; }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  .brand { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 34px; color: var(--amber); margin-bottom: 16px; }
+  p { font-size: 16px; line-height: 1.6; color: var(--muted); }
+  p b { color: var(--cream); font-weight: 500; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="brand">Nook</div>
+    <p>You can close this page and open the <b>Nook</b> app to continue.</p>
+  </main>
+</body>
+</html>
